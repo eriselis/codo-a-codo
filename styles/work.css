@@ -1,0 +1,44 @@
+.page-context{
+    text-align: right;
+    margin: 5%;
+}
+
+.title{
+    position: relative;
+    font-size: 40px;
+    color:#e79ad4;
+    text-shadow: 2px 2px 10px #000;
+  }
+  
+  .contenedor {
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+  .dos-columnas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .page-context{
+        text-align: right;
+        margin: 15%;
+    }
+
+    .title{
+        font-size: 30px;
+        color:#e79ad4;
+      }
+    
+    .dos-columnas {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 2rem;
+    }
+    
+    
+}
