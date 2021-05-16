@@ -3,11 +3,9 @@
     margin: 5%;
 }
 
-  
 .text p {
     padding-bottom: 2em;
 }
-
 
 @media screen and (max-width: 1024px) {
     .page-context{
