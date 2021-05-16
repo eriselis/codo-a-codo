@@ -3,59 +3,30 @@
   margin: 5%;
 }
 
-.contenedor {
+.contact-container {
   max-width: 1200px;
   width: 95%;
   margin: 0 auto;
 }
 
-.dos-columnas {
+.contact-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 2rem;
   justify-items: center;
 }
 
-.entrada-blog .title {
+.contact-grid-item .title {
   font-size: 1em;
   color: black;
   text-shadow: none;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(1, 4fr);
 }
 
 .social-buttons {
   padding-top: 1em;
 }
 
-.contact-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-column-gap: 2%;
-  margin: 5%;
-}
-
-.grid-item {
-  border: 1px solid black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.entrada-blog .title {
-  font-size: 1em;
-  color: black;
-  text-shadow: none;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-}
-
+/* Estilos de botones de redes sociales, son de font-awesome */
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -64,8 +35,6 @@
   text-decoration: none;
   border-radius: 50%;
 }
-
-/* Add a hover effect if you want */
 
 .fa:hover {
   opacity: 0.7;
@@ -76,6 +45,7 @@
   color: white;
 }
 
+/* Estilos para el formulario de contacto */
 form {
   display: grid;
   grid-template-columns: [labels] auto [controls] 1fr;
@@ -86,10 +56,8 @@ form {
 
 form>label {
   grid-column: labels;
-  grid-row: auto;
-  /* color: #e79ad4; */
+  grid-row: auto; 
   color: black;
-  /* text-shadow: 2px 2px 5px #000; */
 }
 
 form>input, form>textarea, form>button {
@@ -97,17 +65,12 @@ form>input, form>textarea, form>button {
   grid-row: auto;
   border: none;
   padding: 1em;
-  /* color: #e79ad4; */
   color: black;
 }
 
-@keyframes show-name {
-  from {
-    left: 0px;
-  }
-  to {
-    left: 30%;
-  }
+.inputfield:focus {
+  outline: none !important;
+  box-shadow: 0 0 10px #e79ad4;
 }
 
 @media screen and (max-width: 1024px) {
@@ -137,7 +100,7 @@ form>input, form>textarea, form>button {
     font-size: 30px;
     color: #e79ad4;
   }
-  .dos-columnas {
+  .contact-grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     column-gap: 2rem;
@@ -148,7 +111,6 @@ form>input, form>textarea, form>button {
   .title {
     text-align: right;
     padding-top: 1em;
-    color: #1f5f19;
     font-size: 20px;
   }
 }

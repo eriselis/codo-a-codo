@@ -1,44 +1,38 @@
-.page-context{
+.page-context {
     text-align: right;
     margin: 5%;
 }
 
-  
-.grid {
+.teacher-list {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
 }
 
-.grid > span {
+.teacher-list>span {
     padding: 8px 4px;
     border-bottom: 1px solid black;
 }
+
 @media screen and (max-width: 1024px) {
-    .page-context{
+    .page-context {
         text-align: right;
         margin: 15%;
     }
-
-    .title{
+    .title {
         font-size: 30px;
-        color:#e79ad4;
-      }
-    
+        color: #e79ad4;
+    }
     .text p {
         font-size: 75%;
     }
-    
-    
 }
 
 @media screen and (max-width: 480px) {
     .title {
         padding-top: 1em;
-        color:#1f5f19;
         font-size: 20px;
-      }
-    
-      span {
+    }
+    span {
         font-size: 60%;
     }
 }

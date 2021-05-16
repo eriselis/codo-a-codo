@@ -3,31 +3,25 @@
   margin: 5%;
 }
 
-.contenedor {
+.work-container {
   max-width: 1200px;
   width: 95%;
   margin: 0 auto;
 }
 
-.dos-columnas {
+.work-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 2rem;
 }
 
-.entrada-blog .title {
+.work-grid-item .title {
   font-size: 1em;
   color: black;
   text-shadow: none;
 }
 
-.grid-item .title {
-  font-size: 1em;
-  color: black;
-  text-shadow: none;
-}
-
-.grid {
+.work-list {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
 }
@@ -56,9 +50,8 @@
   }
   .title {
     font-size: 30px;
-    color: #e79ad4;
   }
-  .dos-columnas {
+  .work-grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     column-gap: 2rem;
@@ -68,7 +61,6 @@
 @media screen and (max-width: 480px) {
   .title {
     padding-top: 1em;
-    color: #1f5f19;
     font-size: 20px;
   }
   span {

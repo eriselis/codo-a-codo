@@ -68,7 +68,6 @@ body {
   }
   .home-title, .home-text {
     animation: none;
-    color: #9aace7;
     font-size: 40px;
     text-align: center;
   }
@@ -81,7 +80,6 @@ body {
   }
   .home-title, .home-text {
     animation: none;
-    color: #1f5f19;
     font-size: 20px;
     text-align: center;
   }
