@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
@@ -8,6 +8,7 @@
 html, body {
   height: 100%;
 }
+
 body {
   display: flex;
   flex-direction: column;
@@ -28,26 +29,35 @@ body {
 }
 
 /* texto pagina principal */
+
 .home-title, .home-text {
   position: relative;
   animation: show-name 5s;
   animation-fill-mode: forwards;
   font-size: 50px;
-  color:#e79ad4;
+  color: #e79ad4;
   text-shadow: 2px 2px 10px #000;
 }
 
 /* animacion texto pagina principal */
+
 @keyframes show-name {
-  0%   {left:0px; top:0px;}
-  100%  {left:200px; top:0px;}
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  100% {
+    left: 200px;
+    top: 0px;
+  }
 }
 
 /* valor por defecto para los titulos de las paginas */
+
 .title {
   position: relative;
   font-size: 2em;
-  color:#e79ad4;
+  color: #e79ad4;
   text-shadow: 2px 2px 10px #000;
 }
 
@@ -56,25 +66,23 @@ body {
     text-align: center;
     margin-top: 30%;
   }
-
   .home-title, .home-text {
     animation: none;
-    color:#9aace7;
+    color: #9aace7;
     font-size: 40px;
     text-align: center;
   }
 }
+
 @media screen and (max-width: 480px) {
   .presentation-box {
     text-align: center;
     margin-top: 35%;
   }
-
   .home-title, .home-text {
     animation: none;
-    color:#1f5f19;
+    color: #1f5f19;
     font-size: 20px;
     text-align: center;
   }
-  
 }

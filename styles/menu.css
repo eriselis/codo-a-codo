@@ -5,13 +5,13 @@
     z-index: 9999;
     position: fixed;
 }
-  
+
 .inner {
     position: relative;
     margin: 0 auto;
     text-align: left;
 }
-  
+
 .navbar a {
     display: inline-block;
     font-size: 14px;
@@ -27,7 +27,7 @@
     background-color: #ddd;
     color: black;
 }
-  
+
 .navbar a.active {
     background-color: #e79ad4;
     color: white;
@@ -44,11 +44,11 @@ footer {
 @media screen and (max-width: 1024px) {
     .navbar {
         height: 70px;
-    }   
+    }
 }
 
 @media screen and (max-width: 480px) {
     .inner {
         text-align: center;
-    }   
+    }
 }

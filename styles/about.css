@@ -1,4 +1,4 @@
-.page-context{
+.page-context {
     text-align: right;
     margin: 5%;
 }
@@ -8,30 +8,26 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .page-context{
+    .page-context {
         text-align: right;
         margin: 15%;
     }
-
-    .title{
+    .title {
         font-size: 30px;
-        color:#e79ad4;
-      }
-    
+        color: #e79ad4;
+    }
     .text p {
         font-size: 75%;
     }
-    
-    
 }
+
 @media screen and (max-width: 480px) {
     .title {
         padding-top: 1em;
-        color:#1f5f19;
+        color: #1f5f19;
         font-size: 20px;
-      }
-    
-      .text p {
+    }
+    .text p {
         font-size: 60%;
     }
 }
