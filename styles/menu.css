@@ -1,0 +1,42 @@
+.navbar {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 40px;
+    z-index: 9999;
+    position: fixed;
+}
+  
+.inner {
+    position: relative;
+    margin: 0 auto;
+    text-align: left;
+}
+  
+.navbar a {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 24px;
+    border-radius: 3px;
+    padding: 2px 15px;
+    text-decoration: none;
+    margin-top: 5px;
+    color: white;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+.navbar a.active {
+    background-color: #e79ad4;
+    color: white;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    width: 100%;
+    /* position: fixed; */
+    /* z-index: -1; */
+}
