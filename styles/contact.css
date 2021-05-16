@@ -3,20 +3,38 @@
     margin: 5%;
 }
 
-.title{
-    position: relative;
-    font-size: 40px;
-    color:#e79ad4;
-    text-shadow: 2px 2px 10px #000;
-  }
-  
+.contenedor {
+  max-width: 1200px;
+  width: 95%;
+  margin: 0 auto;
+}
 
+.dos-columnas {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2rem;
+  justify-items: center;
+}
+
+.entrada-blog .title {
+font-size: 1em;
+color: black;
+text-shadow: none;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(1,4fr);
+}
+
+.social-buttons{
+  padding-top:1em;
+}
   .contact-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 2% ;
     margin: 5%;
-    
   }
 
   .grid-item{
@@ -24,6 +42,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.entrada-blog .title {
+  font-size: 1em;
+  color: black;
+  text-shadow: none;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
 }
 
 .fa {
@@ -59,8 +88,9 @@ form {
 form > label  {
     grid-column: labels;
     grid-row: auto;
-    color: #e79ad4;
-    text-shadow: 2px 2px 5px #000;
+    /* color: #e79ad4; */
+    color: black;
+    /* text-shadow: 2px 2px 5px #000; */
   }
   form > input,
   form > textarea,
@@ -69,7 +99,8 @@ form > label  {
     grid-row: auto;
     border: none;
     padding: 1em;
-    color: #e79ad4;
+    /* color: #e79ad4; */
+    color: black;
   }
   
   @keyframes show-name {

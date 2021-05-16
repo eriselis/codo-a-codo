@@ -1,15 +1,47 @@
+.my-navbar {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 40px;
+    z-index: 9999;
+    position: fixed;
+}
+
+.my-navbar .inner {
+    position: relative;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.my-navbar a {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 24px;
+    border-radius: 3px;
+    padding: 2px 15px;
+    text-decoration: none;
+    margin-top: 5px;
+    color: white;
+}
+
+.my-navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+.my-navbar a.active {
+    background-color: #e79ad4;
+    color: white;
+}
+
+.container {
+    max-width: 100%;
+}
+
 .page-context{
     text-align: right;
     margin: 5%;
 }
 
-.title{
-    position: relative;
-    font-size: 40px;
-    color:#e79ad4;
-    text-shadow: 2px 2px 10px #000;
-  }
-  
 
 
 @media screen and (max-width: 1024px) {
