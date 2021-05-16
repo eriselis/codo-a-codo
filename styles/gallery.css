@@ -57,5 +57,17 @@
         color:#e79ad4;
       }
     
+      .my-navbar {
+        height: 70px;
+    } 
+    
+}
+
+@media screen and (max-width: 480px) {
+    .title {
+        padding-top: 1em;
+        color:#1f5f19;
+        font-size: 20px;
+      }
     
 }

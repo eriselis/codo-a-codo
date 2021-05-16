@@ -146,3 +146,14 @@ form > label  {
     
     
 }
+
+
+@media screen and (max-width: 480px) {
+  .title {
+      text-align: right;
+      padding-top: 1em;
+      color:#1f5f19;
+      font-size: 20px;
+    }
+  
+}
