@@ -33,7 +33,7 @@ body {
   animation-fill-mode: forwards; */
 }
 
-.title, .text {
+.home-title, .home-text {
   position: relative;
   animation: show-name 5s;
   animation-fill-mode: forwards;
@@ -49,7 +49,14 @@ body {
 
 
 @media screen and (max-width: 1024px) {
-  .title, .text {
+  .presentation-box {
+    text-align: center;
+    margin-top: 30%;
+    /* animation: show-name 5s;
+    animation-fill-mode: forwards; */
+  }
+
+  .home-title, .home-text {
       animation: none;
       color:#9aace7;
       font-size: 30px;
@@ -57,7 +64,12 @@ body {
   }
 }
 @media screen and (max-width: 480px) {
-  .title, .text {
+  .presentation-box {
+    text-align: center;
+    margin-top: 35%;
+  }
+
+  .home-title, .home-text {
       animation: none;
       color:#1f5f19;
       font-size: 30px;

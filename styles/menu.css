@@ -40,3 +40,15 @@ footer {
     /* position: fixed; */
     /* z-index: -1; */
 }
+
+@media screen and (max-width: 1024px) {
+    .navbar {
+        height: 70px;
+    }   
+}
+
+@media screen and (max-width: 480px) {
+    .inner {
+        text-align: center;
+    }   
+}
