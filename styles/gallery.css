@@ -1,3 +1,4 @@
+/* NOTA: tuve que crear una class de navbar con otro nombre porque bootstrap tiene estilos ya definidos y rompia todo */
 .my-navbar {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.6);
@@ -42,7 +43,8 @@
     margin: 5%;
 }
 
-
+/* sobreescrito para poder hacer full-responsive el carousel */
+.d-block.w-100 { height:70vh; width:auto; object-fit:cover; }
 
 @media screen and (max-width: 1024px) {
     .page-context{
