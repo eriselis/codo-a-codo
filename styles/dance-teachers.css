@@ -1,0 +1,38 @@
+.page-context{
+    text-align: right;
+    margin: 5%;
+}
+
+.title{
+    position: relative;
+    font-size: 40px;
+    color:#e79ad4;
+    text-shadow: 2px 2px 10px #000;
+  }
+  
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.grid > span {
+    padding: 8px 4px;
+    border-bottom: 1px solid black;
+}
+@media screen and (max-width: 1024px) {
+    .page-context{
+        text-align: right;
+        margin: 15%;
+    }
+
+    .title{
+        font-size: 30px;
+        color:#e79ad4;
+      }
+    
+    .text p {
+        font-size: 75%;
+    }
+    
+    
+  }
